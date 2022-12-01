@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnonFile</title>
+    <link rel="stylesheet" href="./pages/preview.css">
+    <link rel="icon" href="./images/folder-img.png">
+</head>
+<body>
+    <header class="header">
+        <a href="./index.html"><img src="./images/logo.png" alt="Anon file"></a>
+    </header>
+    <main class="content">
+        <nav class="section__nav">
+            <a href="./download.html" class="link">
+                <button class="link__button">
+                    <!-- Текст кнопоки можно изменить-->
+                    Download folder
+                </button>
+            </a>
+            <a href="./download.html" class="link">
+                <button class="link__button link__button_position_preview">
+                    <!-- Текст кнопоки можно изменить-->
+                    Save in Zip
+                </button>
+            </a>
+        </nav>
+        <section class="videos">
+            <p class="videos__sort">Sort by date</p>
+
+            <a class="video" href="./download.html">
+                <!-- Между кавычками атрибута src="#" вместо # можно вставить ссылку на изображение,
+                которое предварительнно необходимо положить в папку videos, получится примерно так
+                src="./videos/название-картинки.jpg" -->
+                <img src="./videos/cat.jpg" alt="video-preview" class="video__preview">
+                <p class="video__description">
+                    <!-- Здесь можно менять подпись -->
+                    Видео про котиков .mp4
+                </p>
+            </a>
+            
+            <a class="video" href="./download.html">
+                <img src="./videos/cat.jpg" alt="video-preview" class="video__preview">
+                <p class="video__description">
+                    Видео про котиков .mp4
+                </p>
+            </a>
+
+            <a class="video" href="./download.html">
+                <img src="./videos/cat.jpg" alt="video-preview" class="video__preview">
+                <p class="video__description">
+                    Видео про котиков .mp4
+                </p>
+            </a>
+
+            <!-- Чтобы довить еще блок просто скопируйте следующий код:
+            
+            <a class="video" href="./download.html">
+                <img src="./videos/cat.jpg" alt="video-preview" class="video__preview">
+                <p class="video__description">
+                    Видео про котиков .mp4
+                </p>
+            </a>
+
+            и встаьте его ниже перед </section> -->
+
+
+        </section>
+    </main>
+</body>
+</html>

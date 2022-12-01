@@ -1,0 +1,9 @@
+.section__subtitle {
+    color: rgb(129, 129, 129);
+    font-family: Karla, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    font-size: small;
+    padding: 15px 0 0;
+    margin: 0;
+}

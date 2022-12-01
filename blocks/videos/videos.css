@@ -1,0 +1,12 @@
+.videos {
+    margin: 0 auto;
+    width: 83%;
+    max-width: 1280px;
+    padding: 55px 0 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .videos {
+        width: 90%;
+    }
+}

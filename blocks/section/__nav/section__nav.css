@@ -1,0 +1,6 @@
+.section__nav {
+    display: grid;
+    gap: 30px;
+    justify-items: center;
+    padding-top: 50px;
+}
